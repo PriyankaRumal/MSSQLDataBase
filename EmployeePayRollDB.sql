@@ -26,3 +26,8 @@ select *from EMPLOYEE_PAYROLL;
 ---------UC4-------------
 ------------Retrieving all the Tables value--------------
 SELECT * FROM EMPLOYEE_PAYROLL;
+
+-----------------UC5---------------------
+ ------retrieve salary data for a particular employee------
+select Salary from employee_payroll where Name='Nilima';
+select * from employee_payroll where StartDate between cast('1-apr-2019' as date) and cast(getdate() as date);
