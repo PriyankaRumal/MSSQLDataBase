@@ -11,3 +11,14 @@ CREATE TABLE EMPLOYEE_PAYROLL
  );
 
  select *from EMPLOYEE_PAYROLL;
+
+  ---UC3----
+ -------Inserting values into Employee_payroll table----------
+
+INSERT INTO employee_payroll VALUES('Ankita','50000','12-july-2020');
+INSERT INTO employee_payroll VALUES('Nilima','40000','12-jan-2010');
+INSERT INTO employee_payroll VALUES('Priyanshu','15000','20-mar-2018');
+INSERT INTO employee_payroll VALUES('Sachin','10000','15-FEB-2010');
+INSERT INTO employee_payroll VALUES('himanshu','50000','13-apr-2025');
+
+select *from EMPLOYEE_PAYROLL;
